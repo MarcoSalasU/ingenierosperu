@@ -1,0 +1,78 @@
+.navColor{
+    background-color: #57B09B;
+}
+
+.imgPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnIniciarSesion{
+    padding: 5px 52.5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #5fd7bb;
+    color: #000;
+    transition: 0.3s;
+}
+.btnIniciarSesion:hover{
+    background-color: #57B09B;
+    color: #000;
+}
+.btnIniciarSesion:active{
+    background-color: #5fd7bb;
+    color: #000;
+}
+.btnGenerar{
+    padding: 5px 52.5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #5fd7bb;
+    color: #000;
+    transition: 0.3s;
+}
+.btnGenerar:hover{
+    background-color: #57B09B;
+    color: #000;
+}
+.btnGenerar:active{
+    background-color: #5fd7bb;
+    color: #000;
+}
+
+.btnConsultar{
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #5fd7bb;
+    color: #000;
+    transition: 0.3s;
+}
+.btnConsultar:hover{
+    background-color: #57B09B;
+    color: #000;
+}
+.btnConsultar:active{
+    background-color: #5fd7bb;
+    color: #000;
+}
+
+.multiColumna{
+    display: flex;
+    justify-content: space-around;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    width: 100%;
+}
